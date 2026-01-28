@@ -28,4 +28,7 @@ LABEL org.opencontainers.image.title="CANFAR Python CLI" \
 
 COPY --from=builder /install /usr/local
 
+HEALTHCHECK --interval=1s --timeout=15s --retries=3 --start-period=1s \
+    CMD ["canfar", "--help"]
+
 CMD ["canfar"]
