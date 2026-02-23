@@ -32,3 +32,6 @@ HEALTHCHECK --interval=1s --timeout=15s --retries=3 --start-period=1s \
     CMD ["canfar", "--help"]
 
 CMD ["canfar"]
+
+# Backward-compatible alias used by CI/CD workflows.
+FROM runtime AS production
