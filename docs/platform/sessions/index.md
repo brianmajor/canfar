@@ -171,7 +171,7 @@ interact with it remotely, either from another session or from your laptop.
 
 The base of the session API will be available at the session URL.  For more
 details, consult the API docs for each of the session types:
-- [CARTA API Docs](https://cartavis.org/carta-frontend/docs/category/code-snippet-tutorial)
+- [CARTA API Docs](https://carta-python.readthedocs.io/en/latest/quickstart.html#opening-and-appending-images)
 - [Firefly API Docs](https://caltech-ipac.github.io/firefly_client/)
 - [JupyterLab API Docs](https://jupyterlab-server.readthedocs.io/en/latest/api/rest.html)
 
